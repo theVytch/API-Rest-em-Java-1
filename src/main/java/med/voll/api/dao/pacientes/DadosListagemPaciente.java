@@ -1,4 +1,4 @@
-package med.voll.api.DAO.pacientes;
+package med.voll.api.dao.pacientes;
 
 import med.voll.api.entities.Paciente;
 

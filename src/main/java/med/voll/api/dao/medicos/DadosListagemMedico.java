@@ -1,4 +1,4 @@
-package med.voll.api.DAO.medicos;
+package med.voll.api.dao.medicos;
 
 import med.voll.api.entities.Medico;
 import med.voll.api.entities.enums.Especialidade;

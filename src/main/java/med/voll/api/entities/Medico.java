@@ -5,8 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.api.DAO.medicos.DadosAtualizacaoMedico;
-import med.voll.api.DAO.medicos.DadosCadastroMedico;
+import med.voll.api.dao.medicos.DadosAtualizacaoMedico;
+import med.voll.api.dao.medicos.DadosCadastroMedico;
 import med.voll.api.entities.enums.Especialidade;
 
 @Table(name = "medicos")

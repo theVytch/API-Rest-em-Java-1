@@ -6,8 +6,8 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import jakarta.persistence.GenerationType;
-import med.voll.api.DAO.pacientes.DadosAtualizacaoPaciente;
-import med.voll.api.DAO.pacientes.DadosCadastroPaciente;
+import med.voll.api.dao.pacientes.DadosAtualizacaoPaciente;
+import med.voll.api.dao.pacientes.DadosCadastroPaciente;
 
 
 

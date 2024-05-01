@@ -1,4 +1,4 @@
-package med.voll.api.DAO.endereco;
+package med.voll.api.dao.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

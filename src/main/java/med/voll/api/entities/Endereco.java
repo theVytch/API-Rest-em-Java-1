@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.api.DAO.endereco.DadosEndereco;
+import med.voll.api.dao.endereco.DadosEndereco;
 
 @Embeddable
 @Getter
