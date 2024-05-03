@@ -1,12 +1,13 @@
 package med.voll.api.controller;
 
-import jakarta.transaction.Transactional;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
+import org.springframework.transaction.annotation.Transactional;
 import jakarta.validation.Valid;
-import med.voll.api.dao.pacientes.DadosAtualizacaoPaciente;
-import med.voll.api.dao.pacientes.DadosCadastroPaciente;
-import med.voll.api.dao.pacientes.DadosDetalhamentoPaciente;
-import med.voll.api.dao.pacientes.DadosListagemPaciente;
-import med.voll.api.entities.Paciente;
+import med.voll.api.domain.pacientes.dto.DadosAtualizacaoPaciente;
+import med.voll.api.domain.pacientes.dto.DadosCadastroPaciente;
+import med.voll.api.domain.pacientes.dto.DadosDetalhamentoPaciente;
+import med.voll.api.domain.pacientes.dto.DadosListagemPaciente;
+import med.voll.api.domain.pacientes.Paciente;
 import med.voll.api.repositories.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -18,6 +19,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
 @RequestMapping("pacientes")
+@SecurityRequirement(name = "bearer-key")
 public class PacienteController {
 
     @Autowired
