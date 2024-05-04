@@ -44,3 +44,7 @@ A API foi desenvolvida com o objetivo de simular um sistema de gestão de uma cl
 1. Clone este repositório.
    ```bash
    git clone https://github.com/theVytch/API-Rest-em-Java-1.git
+
+2. adicione essa script no seu banco de dados para gerar um usuario e gerar um token para fazer as requisições.
+   ```bash
+   insert into vollmed_api.usuarios values (1, 'usuario.test@voll.med', '$2a$10$Y50UaMFOxteibQEYLrwuHeehHYfcoafCopUazP12.rqB41bsolF5.')
